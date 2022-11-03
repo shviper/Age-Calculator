@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #96ceb4;
+}
+.container {
+  width: 50%;
+  background: #588c7e;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: inset 2px 4px 12px 6px rgb(255 255 255 / 20%),
+    -1px 2px 17px 0px rgb(255 255 255 / 19%);
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+}
+.heading {
+  width: 100%;
+  background: #667292;
+  color: #ffff;
+  text-transform: capitalize;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+}
+.birthInput {
+  background: #87bdd8;
+  padding: 20px;
+  display: block;
+}
+.result {
+  background: #667292;
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+}
+input,#button {
+  width: 100%;
+  padding: 7px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+input::placeholder {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+h3 {
+  text-transform: uppercase;
+}
+ui {
+  list-style-type: square;
+}
+li {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 3px;
+}
+label {
+  margin: 2px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+#button {
+  padding: 10px;
+  margin-top: 7px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: rgba(92, 5, 92, 0.829);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+#button:hover {
+  opacity: 0.9;
+}
