@@ -12,11 +12,11 @@ body {
 }
 .container {
   width: 50%;
-  background: #588c7e;
+  background: #00b1b3;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: inset 2px 4px 12px 6px rgb(255 255 255 / 20%),
-    -1px 2px 17px 0px rgb(255 255 255 / 19%);
+  box-shadow: -6px 13px 19px 6px hsl(180deg 47% 15%),
+    9px 8px 18px 2px rgb(44 105 108 / 73%);
   display: grid;
   grid-template-rows: repeat(3, auto);
 }
@@ -40,19 +40,20 @@ body {
   padding: 10px;
   border-radius: 0 0 8px 8px;
 }
-input,#button {
+input,
+#button {
   width: 100%;
   padding: 7px;
   height: 40px;
   border-radius: 5px;
   border: none;
   margin: 5px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 16px;
   text-transform: capitalize;
 }
 input::placeholder {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 16px;
   text-transform: capitalize;
 }
@@ -71,7 +72,7 @@ li {
 label {
   margin: 2px;
   padding: 5px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   display: block;
   font-weight: bolder;
   text-transform: uppercase;
@@ -81,8 +82,8 @@ label {
   margin-top: 7px;
   font-weight: bolder;
   font-size: 20px;
-  text-transform: uppercase;
-  background: rgba(92, 5, 92, 0.829);
+  text-transform: capitalize;
+  background: #0072b5;
   border: none;
   border-radius: 5px;
   color: white;
