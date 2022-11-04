@@ -4,19 +4,19 @@
   box-sizing: border-box;
 }
 body {
+  background: #1c2e4a;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #96ceb4;
 }
 .container {
   width: 50%;
   background: #00b1b3;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: -6px 13px 19px 6px hsl(180deg 47% 15%),
-    9px 8px 18px 2px rgb(44 105 108 / 73%);
+  box-shadow: -6px 13px 19px 6px hsl(180deg 36% 70% / 18%),
+    9px 8px 18px 2px #294470;
   display: grid;
   grid-template-rows: repeat(3, auto);
 }
@@ -42,28 +42,37 @@ body {
 }
 input,
 #button {
+  box-sizing: border-box;
   width: 100%;
-  padding: 7px;
+  padding: 12px 20px;
+  border: 1px solid rgb(41, 153, 228);
   height: 40px;
   border-radius: 5px;
-  border: none;
   margin: 5px;
   font-family: "Courier New", Courier, monospace;
   font-size: 16px;
   text-transform: capitalize;
+  font-weight: bolder;
+  box-shadow: 3px -1px 9px 12px hsl(180deg 36% 70% / 18%),
+    -3px 5px 13px 0px #294470;
 }
 input::placeholder {
   font-family: "Courier New", Courier, monospace;
   font-size: 16px;
   text-transform: capitalize;
+  font-weight: bolder;
 }
 h3 {
   text-transform: uppercase;
 }
 ui {
+  width: 50%;
+  float: left;
   list-style-type: square;
 }
 li {
+  text-align: justify;
+  color: #ffff;
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
   text-transform: uppercase;
@@ -78,8 +87,9 @@ label {
   text-transform: uppercase;
 }
 #button {
+  box-shadow: none;
   padding: 10px;
-  margin-top: 7px;
+  margin-top: 10px;
   font-weight: bolder;
   font-size: 20px;
   text-transform: capitalize;
@@ -87,7 +97,17 @@ label {
   border: none;
   border-radius: 5px;
   color: white;
+  cursor: pointer;
 }
 #button:hover {
   opacity: 0.9;
+}
+.span {
+  color: black;
+}
+b {
+  color: rgb(0, 255, 255);
+}
+footer {
+  position: fixed;
 }

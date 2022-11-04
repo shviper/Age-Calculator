@@ -13,8 +13,10 @@
         <h1>birth calculator</h1>
       </div>
       <div class="birthInput">
-          <label for="name">enter your name :</label>
+        <label for="name">enter your name </label>
         <input
+          size="50"
+          autofocus
           autocomplete="off"
           type="text"
           name="name"
@@ -22,20 +24,27 @@
           placeholder="ENTER YOUR NAME"
           required
         />
-        <label for="birthday">Enter your birthday :</label>
-        <input type="date" name="date" id="birthDay" required/>
+        <label for="birthday">Enter your birthday </label>
+        <input type="date" name="date" id="birthDay" required />
         <button id="button" onclick="birthCalculator()">calculate</button>
         <!-- <input id="button" type="submit"  onclick="birthCalculator()" value="calculate" /> -->
       </div>
-      <div class="result" style="display: none;" id="result">
+      <div class="result" style="display: none" id="result">
         <ui>
-          <li id="pName">name :</li>
-          <li id="pOld">old :</li>
-          <li id="pWeek">month :</li>
-          <li id="pDay">days :</li>
+          <li>name : <span id="pName" class="span"></span></li>
+          <li>old : <span id="pOld" class="span"></span></li>
+          <li>month : <span id="pMonth" class="span"></span></li>
+          <li>week : <span id="pWeek" class="span"></span></li>
+        </ui>
+        <ui>
+          <li>days : <span id="pDay" class="span"></span></li>
+          <li>hours : <span id="phour" class="span"></span></li>
+          <li>minutes : <span id="pMinutes" class="span"></span></li>
+          <li>secound : <span id="psecound" class="span"></span></li>
         </ui>
       </div>
     </div>
+
     <script src="script/main.js"></script>
   </body>
 </html>
