@@ -11,7 +11,6 @@ body {
   align-items: center;
 }
 .container {
-  width: 50%;
   background: #00b1b3;
   border-radius: 10px;
   padding: 20px;
@@ -107,4 +106,12 @@ label {
 }
 b {
   color: rgb(0, 255, 255);
+}
+.fotter {
+  position: fixed;
+  width: 50%;
+  bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
 }

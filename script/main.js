@@ -1,3 +1,12 @@
+/*
+###
+title : birth calculator 
+discription : it's help for calculate your birth day
+Author = Sajjad Hasan Riyad
+github :https://github.com/shviper
+date : 04/11/2022
+###
+*/
 // birthCalculator function
 function birthCalculator() {
   // user input
@@ -45,5 +54,4 @@ function birthCalculator() {
     pMinutes.innerHTML = `<b>${Math.floor(right * 24 * 60)}</b>`;
     psecound.innerHTML = `<b>${Math.floor(right * 24 * 60) * 60}</b>`;
   }
-  console.clear();
 }
