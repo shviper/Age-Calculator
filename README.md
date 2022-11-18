@@ -6,7 +6,7 @@
 - [Screenshot](#screenshot)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
-- [Clone and Installation](#clone and installation)
+- [Clone and Installation](#clone-and-installation)
 - [Credit](#credit)
 - [Contact](#contact)
 
