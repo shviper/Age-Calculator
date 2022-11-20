@@ -23,10 +23,6 @@ function birthCalculator() {
   const pOld = document.getElementById("pOld");
   const pMonth = document.getElementById("pMonth");
   const pWeek = document.getElementById("pWeek");
-  const pDay = document.getElementById("pDay");
-  const phour = document.getElementById("phour");
-  const pMinutes = document.getElementById("pMinutes");
-  const psecound = document.getElementById("psecound");
   // calculate birthday
   const currentDate =
     date.getFullYear() * 265 + (date.getMonth() + 1) * 30 + date.getDay();
@@ -49,9 +45,5 @@ function birthCalculator() {
     pMonth.innerHTML = `<b>${Math.floor(right / 30)}</b>`;
 
     pWeek.innerHTML = `<b>${Math.floor(right / 7)}</b>`;
-    pDay.innerHTML = `<b>${Math.floor(right)}</b>`;
-    phour.innerHTML = `<b>${Math.floor(right * 24)}</b>`;
-    pMinutes.innerHTML = `<b>${Math.floor(right * 24 * 60)}</b>`;
-    psecound.innerHTML = `<b>${Math.floor(right * 24 * 60) * 60}</b>`;
   }
 }

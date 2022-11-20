@@ -75,7 +75,7 @@ li {
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
   text-transform: uppercase;
-  margin: 3px;
+  /* margin: 3px; */
 }
 label {
   margin: 2px;
